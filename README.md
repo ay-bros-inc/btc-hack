@@ -2,7 +2,7 @@
 
 An automated bitcoin wallet collider that brute forces random wallet addresses by checking their balance in real-time.
 
-**⚠️ <span style="color:red">This program is intended to demonstrate a potential security flaw in blockchain technology. Use and distribution of this program is purely for educational purposes only and is not intended for use in any malicious purpose.</span> ⚠️**
+**⚠️ This program is intended to demonstrate a potential security flaw in blockchain technology. Use and distribution of this program is purely for educational purposes only and is not intended for use in any malicious ways. ⚠️**
 
 # Like This Project? Give It A Star
 
