@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@DavidMGilbert 
-DavidMGilbert
-/
-btc-hack
-1
-0
-0
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-btc-hack/btc-hack.py /
-@DavidMGilbert
-DavidMGilbert Create btc-hack.py
-Latest commit a15a558 5 hours ago
- History
- 1 contributor
-121 lines (108 sloc)  4.15 KB
- 
 # Purpyl Media Bitcoin Brute Forcer
 # Made by David Gilbert
 # https://github.com/purpyl-media/btc-hack
@@ -121,7 +89,7 @@ def process(data, balance):
     private_key = data[0]
     address = data[1]
     if (balance == 0.00000000):
-        print("{:<34}".format(str(address)) + ": " + str(balance))
+        print("{:<34}".format(str(address)) + " : " + str(balance))
     if (balance > 0.00000000):
         file = open("found.txt","a")
         file.write("address: " + str(address) + "\n" +
@@ -151,15 +119,3 @@ if __name__ == '__main__':
     except:
         pool.close()
         exit()
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
