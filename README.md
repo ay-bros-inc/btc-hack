@@ -1,6 +1,6 @@
 # Purpyl Bitcoin Address Hacker
 
-An automated bitcoin wallet collider that brute forces random wallet addresses by checking their balance in real-time.
+An automated bitcoin wallet generator that generates random wallet addresses with associated private key and checks their balance in real-time.
 
 **⚠️ This program is intended to demonstrate a potential security flaw in blockchain technology. Use and distribution of this program is purely for educational purposes only and is not intended for use in any malicious ways. ⚠️**
 
